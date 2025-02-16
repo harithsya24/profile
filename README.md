@@ -1,8 +1,8 @@
-#Amrutha_Kanakatte_Ravishankar's Portfolio
+# Amrutha_Kanakatte_Ravishankar's Portfolio
 
 Welcome to my personal portfolio! I'm Amrutha, a Graduate Student based in Stevens Institute of Technology, Hoboken, NJ. This website highlights my skills, projects, and experiences.
 
-##About Me
+## About Me
 
 Provide a brief introduction about yourself, including your background, interests, and professional journey.
 
