@@ -1,18 +1,25 @@
-JohnDoe Free Bootstrap landing page for personal and commercial use. Designed with ♥️ and creativity by Devcrud.com 
+#Amrutha_Kanakatte_Ravishankar's Portfolio
 
-Product Page: https://wwww.devcrud.com/
+Welcome to my personal portfolio! I'm Amrutha, a Graduate Student based in Stevens Institute of Technology, Hoboken, NJ. This website highlights my skills, projects, and experiences.
 
-Credits:
+##About Me
 
-    Demo Images:
-        Unsplash:       	(https://www.unsplash.com)
+Provide a brief introduction about yourself, including your background, interests, and professional journey.
 
-    Icons:
-		Themify Icons: 		(https://themify.me/themify-icons)
+## Skills
 
-	Other:
-		JQuery: 			(https://www.jquery.com)
-		Bootstrap: 			(https://www.getbootstrap.com)
-		Bootstrap Affix: 	(http://getbootstrap.com/javascript/#affix)  
-		Isotope: 			(https://isotope.metafizzy.co/) 
-		Google Maps:		(https://maps.google.com)
+• Programming Language: Python, C++
+• AI and Machine Learning: TensorFlow, PyTorch, Generative AI, LLM, NLTK, Statistics, RAG
+• Devops and Databases: Docker, Kubernetes, SQL, MongoDB, Cloud(GCP), Flask
+
+## Contact
+
+Feel free to reach out to me through the following channels:
+
+- Email: amruthakravishankar@outlook.com
+- LinkedIn: https://www.linkedin.com/in/amrutha-kanakatte-ravishankar-/
+- GitHub: https://github.com/harithsya24
+
+## License
+
+This portfolio is licensed under the [Your License Name] License.
