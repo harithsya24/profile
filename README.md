@@ -22,4 +22,4 @@ Feel free to reach out to me through the following channels:
 
 ## License
 
-This portfolio is licensed under the [Your License Name] License.
+This portfolio is licensed under the Amrutha Kanakatte Ravishankar License.
