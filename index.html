@@ -459,7 +459,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Animate progress bars when they come into view
         const observerOptions = {
             threshold: 0.5,
             rootMargin: '0px 0px -100px 0px'
@@ -718,42 +717,87 @@
         </div>
     </section>
 
-<!-- Portfolio Section (Matrix Style) -->
-<section class="section text-green" id="Certificates" style="border: 4px solid #dc3545; border-radius: 15px; margin: 20px; background-color: transparent;">
-<div class="container">
-<h1 class="mb-5 text-matrix"><span class="text-danger">My</span> Certificates</h1>
-<div class="portfolio">
-<div class="portfolio-container">
-<!--<div class="col-md-6 col-lg-4 web new">
- <div class="portfolio-item matrix-border">
- <img src="assets/imgs/web-1.jpg" class="img-fluid matrix-img" alt="Certificate">
- <div class="content-holder">
- <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
- <div class="text-holder">
- <h6 class="title text-matrix">WEB</h6>
- <p class="subtitle"></p>
- </div>
- </div>
- </div>
- </div-->
-<div class="col-md-6 col-lg-4 web new">
-<div class="portfolio-item matrix-border">
-<img src="assets/imgs/web-2.jpg" class="img-fluid matrix-img">
-<div class="content-holder">
-<a class="img-popup" href="https://www.coursera.org/account/accomplishments/specialization/FX4H57E3DCVW"></a>
-<div class="text-holder">
-<a href="https://www.coursera.org/account/accomplishments/specialization/FX4H57E3DCVW">
-<h6 class="title text-matrix">Machine Learning</h6>
-</a>
-<p class="subtitle text-matrix">Machine Learning Specialization by DeepLearning.AI & Stanford</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+<section style="padding: 100px 200px;">
+    <h2 style="text-align: center; color: #212529; margin-bottom: 30px;">My Certificates</h2>
+
+    <div style="overflow: hidden; position: relative; width: 100%;">
+      <div style="
+        display: flex;
+        gap: 30px;
+        animation: scroll-left 200s linear infinite;
+        width: max-content;
+        align-items: center;
+      ">
+
+        <!-- Certificate 1 -->
+        <div style="flex: 0 0 auto; width: 200px; text-align: center;">
+          <a href="https://www.credly.com/badges/76b26707-2a71-4d79-96f6-af08d08d8b56/public_url" target="_blank">
+            <img src="assets/file/AI_Practitioner_certificate.jpg" alt="AWS AI Practitioner Certificate" style="
+              width: 100%;
+              height: 140px;
+              object-fit: cover;
+              border-radius: 10px;
+              box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            ">
+          </a>
+          <p style="margin-top: 8px; font-size: 0.9rem; color: #333;">AWS AI Practitioner</p>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div style="flex: 0 0 auto; width: 200px; text-align: center;">
+          <a href="https://www.udacity.com/certificate/e/b1c9d82e-3f5b-11f0-9de3-c30d39618fed" target="_blank">
+            <img src="assets/file/Introducing Generative AI with AWS_Udacity.jpg" alt="Introducing Generative AI with AWS (Udacity)" style="
+              width: 100%;
+              height: 140px;
+              object-fit: cover;
+              border-radius: 10px;
+              box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            ">
+          </a>
+          <p style="margin-top: 8px; font-size: 0.9rem; color: #333;">Introducing Generative AI with AWS (Udacity)</p>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div style="flex: 0 0 auto; width: 200px; text-align: center;">
+          <a href="https://www.credly.com/badges/67dbf621-76af-4ca6-bc0a-da58d61f6dca/public_url" target="_blank">
+            <img src="assets/file/ML foundation AWS.png" alt="ML Foundation" style="
+              width: 100%;
+              height: 140px;
+              object-fit: cover;
+              border-radius: 10px;
+              box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            ">
+          </a>
+          <p style="margin-top: 8px; font-size: 0.9rem; color: #333;">AWS Training Machine Learning Foundation</p>
+        </div>
+
+        <!-- Repeat (optional for looping effect) -->
+        <div style="flex: 0 0 auto; width: 200px; text-align: center;">
+          <a href="https://www.coursera.org/account/accomplishments/specialization/FX4H57E3DCVW?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=s12n" target="_blank">
+            <img src="assets/imgs/web-2.jpg" alt="Machine Learning Specilization Certificate(DeepLearning AI)" style="
+              width: 100%;
+              height: 140px;
+              object-fit: cover;
+              border-radius: 10px;
+              box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            ">
+          </a>
+          <p style="margin-top: 8px; font-size: 0.9rem; color: #333;">Machine Learning Specilization Certificate(DeepLearning AI)</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Keyframes inside body using a <style> tag -->
+  <style>
+    @keyframes scroll-left {
+      0%   { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+  </style>
+
+
 
     <section class="section" id="publications">
         <div class="container">
